@@ -43,7 +43,7 @@ namespace MCRun
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtURI.Location = new System.Drawing.Point(17, 32);
             this.txtURI.Name = "txtURI";
-            this.txtURI.Size = new System.Drawing.Size(566, 23);
+            this.txtURI.Size = new System.Drawing.Size(566, 27);
             this.txtURI.TabIndex = 0;
             this.txtURI.TextChanged += new System.EventHandler(this.btnParse_Click);
             // 
@@ -53,7 +53,7 @@ namespace MCRun
             this.label1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(14, 14);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 15);
+            this.label1.Size = new System.Drawing.Size(104, 21);
             this.label1.TabIndex = 1;
             this.label1.Text = "Protocol URI:";
             // 
@@ -63,7 +63,7 @@ namespace MCRun
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtCommand.Location = new System.Drawing.Point(17, 89);
             this.txtCommand.Name = "txtCommand";
-            this.txtCommand.Size = new System.Drawing.Size(566, 23);
+            this.txtCommand.Size = new System.Drawing.Size(566, 27);
             this.txtCommand.TabIndex = 2;
             // 
             // label2
@@ -72,7 +72,7 @@ namespace MCRun
             this.label2.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(14, 70);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(104, 15);
+            this.label2.Size = new System.Drawing.Size(134, 21);
             this.label2.TabIndex = 1;
             this.label2.Text = "Command to run:";
             // 
@@ -106,7 +106,7 @@ namespace MCRun
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(657, 136);
             this.Controls.Add(this.btnTips);
@@ -118,7 +118,7 @@ namespace MCRun
             this.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "MCRun v1.0";
+            this.Text = "MCRun v1.0.1";
             this.ResumeLayout(false);
             this.PerformLayout();
 

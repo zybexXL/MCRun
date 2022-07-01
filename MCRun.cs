@@ -36,7 +36,7 @@ namespace MCRun
         private void btnRun_Click(object sender, EventArgs e)
         {
             if (!Program.Execute(txtURI.Text, out string err))
-                MessageBox.Show(this, "Failed to execute given command line:\n{err}", "Execute failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(this, $"Failed to execute given command line:\n{err}", "Execute failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         private void btnParse_Click(object sender, EventArgs e)
